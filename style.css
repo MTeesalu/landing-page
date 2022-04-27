@@ -105,8 +105,8 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .information-header {
@@ -114,11 +114,15 @@ ul {
     justify-content: center;
     font-size: 36px;
     font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .information-items {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .information-image1,
@@ -128,4 +132,12 @@ ul {
     width: 150px;
     height: 150px;
     object-fit: fill;
+    border-radius: 10px;
+}
+
+.information-item1,
+.information-item2,
+.information-item3,
+.information-item4 {
+    width: 150px;
 }
