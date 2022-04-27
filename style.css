@@ -107,6 +107,7 @@ ul {
     flex-direction: column;
     margin-left: 300px;
     margin-right: 300px;
+    padding-bottom: 40px;
 }
 
 .information-header {
@@ -140,4 +141,26 @@ ul {
 .information-item3,
 .information-item4 {
     width: 150px;
+}
+
+.quote {
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote-main-text {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: right;
+    font-weight: 600;
+    font-size: 22px;
 }
