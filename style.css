@@ -1,16 +1,19 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .header,
 .footer {
     display: flex;
-    background-color: white;
+    background-color: #1f2937;
+    color: white;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -47,8 +50,9 @@ ul {
 .header {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
     gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 48px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -68,8 +72,10 @@ ul {
 }
 
 .header-image {
-    height: auto;
+    height: 240px;
     width: auto;
+    object-fit: fill;
+    margin-top: auto;
 }
 
 .header-text {
@@ -81,7 +87,6 @@ ul {
 }
 
 .sign-up {
-    display: flex;
     justify-content: left;
     background-color: #3882F6;
     color: white;
@@ -90,4 +95,37 @@ ul {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-right: 370px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.information-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.information-image1,
+.information-image2,
+.information-image3,
+.information-image4 {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
 }
