@@ -212,3 +212,10 @@ ul {
     border-style: solid;
     border-width: 2px;
 }
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
